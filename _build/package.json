@@ -1,0 +1,14 @@
+{
+  "name": "elibrary-build",
+  "private": true,
+  "description": "Builds the ENG ME UP eLibrary static site (../) from PJ_PART/pro1_Pack_v1.6",
+  "scripts": {
+    "extract": "node extract.js",
+    "images": "node images.js",
+    "pages": "node build.js",
+    "build": "node extract.js && node images.js && node build.js"
+  },
+  "dependencies": {
+    "sharp": "0.33.5"
+  }
+}

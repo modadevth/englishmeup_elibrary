@@ -1,0 +1,7 @@
+# source pack: internal docs + exam PDFs (email-only) — never commit to this public repo
+PJ_PART/
+# build tooling artifacts
+_build/node_modules/
+_build/.cache/
+.DS_Store
+Thumbs.db
